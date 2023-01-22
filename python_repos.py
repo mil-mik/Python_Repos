@@ -1,7 +1,5 @@
 import requests
 
-from plotly.graph_objs import Layout
-from plotly import offline
 
 url = "https://api.github.com/search/repositories?q=language:python&sort=stars"
 # wykonanie wywołania API i zachowanie otrzymanej odpowiedzi
